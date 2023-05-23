@@ -8,7 +8,7 @@
     margin-bottom: 40px;
 }
 
-.red {
+.offline {
     display: inline-block;
     background-color: red;
     width: 15px;
@@ -17,7 +17,7 @@
     margin-left: 10px;
 }
 
-.green {
+.online {
     display: inline-block;
     background-color: rgb(11, 93, 44);
     width: 15px;
@@ -34,6 +34,9 @@
     width: 280px;
     border-radius: 5px;
     height: 70px;
+    box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
 }
 
 .item:hover{

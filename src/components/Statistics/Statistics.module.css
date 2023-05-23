@@ -4,6 +4,15 @@
     margin-bottom: 40px;
     border: 2px solid rgb(135, 154, 197);
     border-radius: 10px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.statistics:hover{
+    box-shadow: -2px 11px 34px 1px rgba(0,0,0,0.64);
+    -webkit-box-shadow: -2px 11px 34px 1px rgba(0,0,0,0.64);
+    -moz-box-shadow: -2px 11px 34px 1px rgba(0,0,0,0.64);
 }
 
 .title {
@@ -31,11 +40,11 @@
 
 .label {
     font-size: 14px;
-    color: rgb(124, 99, 147);
+    color: rgb(22, 22, 22);
 }
 
 .percentage {
     font-size: 17px;
     font-weight: 500;
-    color: rgb(90, 64, 115);
+    color: rgb(0, 0, 0);
 }

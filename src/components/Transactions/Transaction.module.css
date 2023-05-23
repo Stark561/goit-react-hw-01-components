@@ -1,0 +1,41 @@
+.transactionHistory {
+    width: 555px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 1px 4px rgba(126, 147, 255, 0.2);
+    border-radius: 6px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.transactionHistory:hover{
+    box-shadow: -2px 11px 34px 1px rgba(0,0,0,0.64);
+    -webkit-box-shadow: -2px 11px 34px 1px rgba(0,0,0,0.64);
+    -moz-box-shadow: -2px 11px 34px 1px rgba(0,0,0,0.64);
+}
+
+.transactionDeskHead {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.17;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background-color: #4cc6f5;
+    color: #ffffff;
+}
+
+.headItem {
+    height: 50px;
+}
+
+.deskRow {
+    color: #7f8e9d;
+    text-align: center;
+    height: 50px;
+}
+
+.deskRow:nth-child(2n) {
+    background-color: #ecf1f3;
+}

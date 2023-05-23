@@ -5,6 +5,15 @@
     margin-bottom: 40px;
     border: 2px solid rgb(135, 154, 197);
     border-radius: 10px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.profile:hover{
+    box-shadow: -2px 11px 34px 1px rgba(0,0,0,0.64);
+    -webkit-box-shadow: -2px 11px 34px 1px rgba(0,0,0,0.64);
+    -moz-box-shadow: -2px 11px 34px 1px rgba(0,0,0,0.64);
 }
 
 .description {
